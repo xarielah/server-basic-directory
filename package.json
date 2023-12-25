@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "cd ./frontend/ && npm run build && cd .. && nodemon src/server.ts",
     "compile-back": "tsc",
-    "compile-front": "cd ./frontend/ && npm run build"
+    "compile-front": "cd ./frontend/ && npm ci && npm run build"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
