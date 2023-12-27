@@ -3,7 +3,7 @@ import DiscordInformation from "./discord-info";
 
 export default function LinkBlock({ link }: ILinkBlock) {
   const discordClass =
-    link.type === "discord" ? "from-slate-900 bg-gradient-to-t" : "";
+    link.type === "discord" ? "from-zinc-900 bg-gradient-to-t" : "";
 
   return (
     <div
